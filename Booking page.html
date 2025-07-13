@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Bookings</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Linking to external Google font and style sheet-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style sheet.css" />
+  </head>
+  <body>
+    <!-- Navigation bar with links to other pages -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+      <div class="company">Snazzy Dog Grooming</div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="Services page.html">Services</a>
+        <a href="Booking page.html">Book Appointment</a>
+        <a href="Gallery page.html">Gallery</a>
+        <a href="Contact page.html">contact</a>
+      </div>
+    </nav>
+    <main>
+      <!-- Booking form section with submit button-->
+      <section class="booking-form">
+        <h2>Book now</h2>
+        <form>
+          <label for="service">Dog grooming service:</label>
+          <input type="text" id="service" name="service" required />
+
+          <label for="owner_name">Owners name:</label>
+          <input type="text" id="owner_name" name="owner_name" required />
+
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="dog_name">Dogs name:</label>
+          <input type="text" id="dog_name" name="dog_name" required />
+
+          <label for="dog_breed">Dog breed:</label>
+          <input type="text" id="dog_breed" name="dog_breed" required />
+
+          <label for="dog_age">Dog age:</label>
+          <input type="text" id="dog_age" name="dog_age" required />
+
+          <button type="submit">Book</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer with social media links and opening hours-->
+    <footer class="footer" role="additional information">
+      <div class="social">
+        <a href="#"></a>
+        <img src="images/instagram.png" alt="Instagram logo" />
+        <a href="#"></a>
+        <img src="images/Facebook.png" alt="Facebook logo" />
+        <a href="#"></a>
+        <img src="images/Pinterest.png" alt="pinterest logo" />
+      </div>
+      <div class="hours">
+        <strong>Opening Hours:</strong><br />
+        Wed to Sun: 9am – 5pm
+      </div>
+    </footer>
+  </body>
+</html>
